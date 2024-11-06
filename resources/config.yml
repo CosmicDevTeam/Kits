@@ -3,11 +3,11 @@ database:
 
   sqlite:
     file: sqlite.db
-
+# pa los que no entienden ps
   mysql:
     host: 127.0.0.1
     username: root
-    password: "Your MYSQl password"
-    schema: "Your schema"
+    password: "la password de tu database"
+    schema: "el nombre de la database "
   worker-limit: 1
 
