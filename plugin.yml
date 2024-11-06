@@ -1,0 +1,12 @@
+name: Kit
+author: IamFxr.lol
+api: 5.0.0
+version: 0.0.1
+main: zephy\kits\Loader
+
+permissions:
+    kit.use:
+        default: true
+    kit.admin:
+        default: op
+

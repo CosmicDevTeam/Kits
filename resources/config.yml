@@ -1,0 +1,13 @@
+database:
+  type: sqlite
+
+  sqlite:
+    file: sqlite.db
+
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: "Your MYSQl password"
+    schema: "Your schema"
+  worker-limit: 1
+
